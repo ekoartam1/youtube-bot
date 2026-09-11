@@ -23,8 +23,7 @@ BOT_TOKEN = "توکن_ربات_خودت_را_اینجا_بگذار"
 # پوشه دانلود
 # ==============================
 
-DOWNLOAD_DIR = "/storage/emulated/0/Download/TelegramMusic"
-
+DOWNLOAD_DIR = "downloads"
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 
 
